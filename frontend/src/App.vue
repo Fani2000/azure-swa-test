@@ -1,14 +1,15 @@
 <script setup lang="ts">
 import { onMounted, ref } from "vue";
 // import HelloWorld from './components/HelloWorld.vue'
-import axios from "axios";
+// import axios from "axios";
 // import { VideoPlayer } from "@videojs-player/vue";
 
 const message = ref("");
 
 onMounted(async () => {
-  const res = await axios.get("api/getDetails");
-  message.value = res.data;
+  // const res = await axios.get("api/getDetails");
+  // message.value = res.data;
+  message.value = "Welcome"
 });
 
 // const option = { src: "rtsp://88.159.118.92:9000/live", type: "video/rtsp" };
