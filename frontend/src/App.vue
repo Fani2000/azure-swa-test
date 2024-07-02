@@ -38,6 +38,7 @@ onMounted(async () => {
 <template>
   <div>
     <div>Welcome {{ message }}</div>
+    <div>This is the main frontend code</div>
     <!-- <video-player :sources="[option]" controls :volume="0.6" autoplay /> -->
     <!-- <video id="video" width="640" height="360" controls></video> -->
   </div>
